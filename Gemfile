@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+ruby "3.1.1"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.2.2", ">= 7.2.2.1"
 # Use pg as the database for Active Record
@@ -27,8 +28,8 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
-gem 'rack-cors'
-gem 'httparty' # to make HTTP requests to MusicBrainz
+gem "rack-cors"
+gem "httparty" # to make HTTP requests to MusicBrainz
 
 
 group :development, :test do
@@ -41,5 +42,3 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 end
-
-
